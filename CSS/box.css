@@ -1,0 +1,129 @@
+.container__box{
+  z-index: 1000;
+  position: absolute;
+  margin-top: -700px;
+}
+
+.container__h1 h2 {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 45px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.box {
+  max-width: 95%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 18px rgb(137 141 154 / 30%);
+  padding: 0;
+  border: 0;
+  color: #171a22;
+}
+
+.box__up{
+  padding-left: 45px;
+  padding-right: 45px;
+  padding: 40px 8px 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 -5px;
+  color: #171a22;
+}
+
+.box__down{
+  padding-left: 67px;
+  padding-right: 12px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 85px 0 30px 37px;
+  display: flex;
+}
+
+.down__right{
+  max-width: 50%;
+  width: 100%;
+}
+
+.down__right img{
+  width: 100%;
+}
+
+.down__left{
+  max-width: 50%;
+  width: 100%;
+  padding: 85px 0 30px 37px;
+}
+
+.down__left h3{
+  font-size: 3rem;
+  line-height: 38px;
+  margin-bottom: 24px;
+}
+
+.down__left ul {
+  margin-bottom: 30px;
+}
+
+.down__left ul li{
+  list-style:disc;
+  margin-bottom: 8px;
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+.down__left button {
+  cursor: pointer;
+  border: none;
+}
+
+.down__left button a{
+  padding: 0 20px;
+  font-size: 2rem;
+  line-height: 22px;
+  min-height: 50px;
+  height: 60px;
+  font-weight: 400;
+  box-shadow: none;
+  outline: none;
+  user-select: none;
+  color: #fff;
+  fill: #fff;
+  background-color: #ff622d;
+  border-radius: 5px;
+  transition: .2s ease-in-out;
+  display: inline-flex;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+
+@media (max-width: 950px) {
+  .box__down{
+    padding-left: 67px;
+    padding-right: 12px;
+    padding: 85px 0 30px 37px;
+    display: block;
+  }
+  .down__right{
+    max-width: 93%;
+  }
+  .down__left{
+    max-width: 93%;
+  }
+  .down__left h3{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 840px){
+  .down__right{
+    max-width: 100%;
+  }
+  .down__left{
+    max-width: 93%;
+  }
+}
